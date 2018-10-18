@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import '~open-iconic/font/css/open-iconic-bootstrap.css';
+
+#logo {
+  color: black;
+}
+
+h1, h2 {
+  font-weight: bold;
+}
+
+#logo:hover {
+  text-decoration: none;
+}
+
+.form-inline .btn-outline-danger {
+  width: 100%;
+}
+
+@media screen and (max-width: 992px) {
+  .nav-item {
+    margin-top: 10px;
+  }
+}
